@@ -27,7 +27,7 @@ export default function RootLayout({
           <AuthProvider>
             <UserSyncProvider>
               <CurrencyProvider>{children}</CurrencyProvider>
-              <PurchaseWidget />
+              
             </UserSyncProvider>
           </AuthProvider>
         </StateProvider>
